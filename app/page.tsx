@@ -4,6 +4,7 @@ import Image from "next/image";
 import Container from "./components/shared/ui/Container";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import LookingFor from "./components/shared/ui/LookingFor";
+import SaveOnMostSelled from "./components/shared/ui/SaveOnMostSelled";
 
 const products = [
   {
@@ -43,7 +44,7 @@ const Home = () => {
     <Container className="flex flex-col gap-10">
       <section className="relative w-full max-w-[1294px] h-[550px] bg-[#DCE5E2] rounded-2xl flex items-center justify-between px-14 overflow-hidden transition-all duration-500">
         <div className="flex flex-col gap-6 max-w-[500px] transition-all duration-500 ease-in-out">
-          <h1 className="text-[50px] font-semibold leading-tight">
+          <h1 className="text-[50px] leading-tight">
             {title.split("here")[0]} <br /> {title.split("here")[1]}
           </h1>
           <h3 className="text-[18px] text-gray-700">{desc}</h3>
@@ -77,7 +78,7 @@ const Home = () => {
           <ChevronRight size={40} />
         </button>
       </section>
-
+      <SaveOnMostSelled />
       <LookingFor />
     </Container>
   );

@@ -31,7 +31,7 @@ const LookingFor = () => {
           {searchSuggestions.map((item, index) => (
             <button
               key={index}
-              className="px-5 py-2 border border-[#c5c5c5] rounded-full text-sm cursor-pointer transition-all duration-200 hover:scale-105 hover:border-black">
+              className="px-5 py-2 border border-[#c5c5c5] rounded-full font-light cursor-pointer transition-all duration-200 hover:scale-105 hover:border-black">
               {item}
             </button>
           ))}
