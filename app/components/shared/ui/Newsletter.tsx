@@ -3,7 +3,7 @@ import Container from "./Container";
 
 const Newsletter = () => {
   return (
-    <Container className="flex flex-col gap-6  mt-12 items-center justify-center w-[935] h-[450px] bg-[#DCE5E2] rounded-2xl">
+    <Container className="flex flex-col gap-6  mt-12 items-center justify-center w-[935] h-[450px] bg-[#F8F9FA] rounded-2xl">
       <div className="flex flex-col items-center gap-2">
         <h1 className="text-4xl font-medium">Never miss a thing</h1>
         <h3>
