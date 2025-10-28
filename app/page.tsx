@@ -5,6 +5,7 @@ import Container from "./components/shared/ui/Container";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import LookingFor from "./components/shared/ui/LookingFor";
 import SaveOnMostSelled from "./components/shared/ui/SaveOnMostSelled";
+import TheBest from "./components/shared/ui/TheBest";
 
 const products = [
   {
@@ -79,6 +80,7 @@ const Home = () => {
         </button>
       </section>
       <SaveOnMostSelled />
+      <TheBest />
       <LookingFor />
     </Container>
   );
