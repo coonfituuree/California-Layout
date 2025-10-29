@@ -10,17 +10,17 @@ const products = [
   {
     title: "Powerful laptops for creators.",
     desc: "Experience blazing performance with our next-gen notebooks.",
-    img: "/laptop.png",
+    img: "/MacbookPro16.png",
   },
   {
     title: "Smart watches for your lifestyle.",
     desc: "Stay connected and track your health with style.",
-    img: "/watch.png",
-  },
+    img: "/applewatch.png",
+  },  
   {
     title: "Tablets that do it all.",
     desc: "Perfect balance of power and portability for everyday tasks.",
-    img: "/tablet.png",
+    img: "/tablets.png",
   },
 ];
 const Explore = () => {
@@ -52,7 +52,7 @@ const Explore = () => {
           alt="product"
           width={1000}
           height={500}
-          className="object-contain"
+          className="object-contain w-[647px] h-[550px]"
         />
       </div>
 

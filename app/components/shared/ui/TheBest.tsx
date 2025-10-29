@@ -36,10 +36,10 @@ const TheBest = () => {
           <div
             key={index}
             className="w-96 flex items-center gap-4 justify-center flex-col bg-[#F8F9FA] border border-gray-200 cursor-pointer rounded-2xl p-4 hover:shadow-lg transition">
-            <div className="flex flex-col items-center justify-center gap-1">
+            <div className="flex flex-col mt-2 items-center justify-center gap-1">
               <div className="text-sm">{item.description}</div>
               <div className="text-3xl">{item.title}</div>
-              <button className="mt-2 mb-2 border border-black rounded-full cursor-pointer py-2 px-8 transition-all duration-300 hover:scale-105 hover:bg-black hover:text-white">Explore</button>  
+              <button className="mt-4 mb-2 border border-black rounded-full cursor-pointer py-2 px-8 transition-all duration-300 hover:scale-105 hover:bg-black hover:text-white">Explore</button>  
             </div>
             <Image
               src={item.image}
