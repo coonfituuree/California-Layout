@@ -5,6 +5,7 @@ import SaveOnMostSelled from "./components/shared/ui/SaveOnMostSelled";
 import TheBest from "./components/shared/ui/TheBest";
 import Explore from "./components/shared/ui/Explore";
 import LatestOffer from "./components/shared/ui/LatestOffer";
+import IdeasHave from "./components/shared/ui/IdeasHave";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <LatestOffer />
       <SaveOnMostSelled />
       <TheBest />
+      <IdeasHave />
       <LookingFor />
     </Container>
   );
